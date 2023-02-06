@@ -8,10 +8,14 @@ I would like to understand what features play crucial role in the acceptance of 
 
 ## Data set
 Data set will be used in this project is taken from https://www.dol.gov/agencies/eta/foreign-labor/performance (File Name: H-1B FY2019.xlsx). Size of the dataset is 270MB.
+There are 260 columns in the Dataset with the combination of object and Datatime columns. After cleaning the data, I am planning to use only 10 columns from the existing 260 columns.
+
 ## Feature columns and Target Variable
 The feature columns which I am going to consider for EDA and predication are related to the Job experience, Job roles, employer information and Wages. Target variable would be the Case Status which has the values Certified, Certified - Withdrawn, Denied and Withdrawn. I might update to only two target variables i.e., Certified and Denied.
 ## ML Methodologies
 I would like to apply Logistic Regression, SVM and Neural Network techniques for this application. Might include any other ML models if required. 
+## Deployment of ML 
+Our application can provide the prediction with the basic details of Employer, wage, job position and other details.
 
 ## Questions for EDA and Modeling.
 * Analysis will be done on which employer has the most applicants.
