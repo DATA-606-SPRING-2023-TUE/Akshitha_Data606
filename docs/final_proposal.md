@@ -8,11 +8,11 @@ I would like to understand what features play crucial role in the acceptance of 
 
 ## Data set
 Datasets considered in this project belong to 2017, 2018, 2019 years of H1-B applications.
-Data sets used in this project are taken from https://www.dol.gov/agencies/eta/foreign-labor/performance 
-File Names: 
-H-1B FY2019.xlsx
-H-1B FY2018.xlsx
-H-1B FY2017.xlsx
+Data sets used in this project are taken from https://www.dol.gov/agencies/eta/foreign-labor/performance <br/>
+File Names: <br/>
+* H-1B FY2019.xlsx
+* H-1B FY2018.xlsx
+* H-1B FY2017.xlsx <br/>
 Size of the each dataset is 270MB.
 There are around 260 columns in each Dataset with the combination of object and Datatime columns. After cleaning the data,
 I am planning to use only 10 columns from the existing 260 columns and then concatinate the three dataframes. 
@@ -26,15 +26,16 @@ so they withdrew the LCA. It cannot be used for filing H1B petition anymore.
 
 ## ML Methodologies
 I would like to apply Logistic Regression, SVM and Neural Network techniques for this application. Might include any other ML models if required. 
-## Deployment of ML 
-Our application can provide the prediction with the basic details of Employer, wage, job position and other details.
+
 
 ## Questions for EDA and Modeling.
 * Analysis will be done on which employer has the most applicants.
 * Which role has more acceptance or rejections?
+* Year wise observation of applications and employers.
 * Which of the given features play important role in the acceptance of the lottery system of H1-B?
 * How does the wage effect the Case status?
-* Which Employer state or city has most acceptance rate?
+* Which Employer state or city has most acceptance rate year wise?
+
 ## What do you want to achieve in this project?
 I would like to complete this project by implementing my skills learnt from the courses I have taken in this Data Science course. I will try to implement and explain different models and find the accuracy to determine the best model.
 Using the real time data to predict the real time values based on the learnt techniques is doing to be interesting.
