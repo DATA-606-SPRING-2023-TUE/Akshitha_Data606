@@ -59,6 +59,7 @@ Gradient Boosting Classifier is a popular machine learning algorithm used in h1b
 The algorithm has several hyperparameters that can be fine-tuned to optimize its performance, such as the number of trees, learning rate, and maximum depth. By optimizing these hyperparameters, Gradient Boosting Classifier can achieve high accuracy and can handle both numerical and categorical features.
 
 One potential limitation of Gradient Boosting Classifier is that it can be computationally expensive, especially with a large dataset or when using a deep decision tree. However, the algorithm is widely used in h1b prediction analysis due to its ability to handle complex datasets with high accuracy.
+
 **Accuracy:** 68%
 
 ### Random Forest:
@@ -69,6 +70,8 @@ In H1B prediction analysis, a random forest model is trained using a set of feat
 Random Forest has the advantage of reducing overfitting and increasing the accuracy of the model by creating a diverse set of decision trees. Additionally, it can handle missing values, and feature selection is not required. It is also scalable and can handle large datasets with high dimensionality.
 
 However, random forest has some limitations, including the risk of overfitting when the number of trees is too high, and the model's interpretability may be limited. Nonetheless, the random forest algorithm is a powerful technique for H1B prediction analysis, and it has been shown to achieve high prediction accuracy.
+
+
 **Accuracy:** 81%
 
 ### K Nearest Neighbors (KNN):
@@ -79,14 +82,20 @@ KNN works by identifying the K closest data points to the given input data point
 One advantage of KNN is that it is a non-parametric algorithm and does not make any assumptions about the distribution of the data. Additionally, it can work well with large datasets and can be easily extended to handle multi-class classification problems.
 
 However, KNN can be sensitive to the choice of distance metric and the number of neighbors K. Also, it can be computationally expensive to calculate distances between the input and all data points in the dataset. Therefore, it may not be the best choice for high-dimensional data with many features.
+
+
 **Accuracy:** 77%
+
 ### AdaBoost Classifier
 Adaboost is a popular machine learning algorithm used for classification tasks, including H1B visa prediction analysis. It is an ensemble learning method that combines multiple "weak" classifiers to create a "strong" classifier. In the case of H1B prediction analysis, Adaboost could be used to combine decision trees or other classifiers to improve the accuracy of the predictions.
 
 Adaboost works by assigning weights to each training example and focusing on the examples that the weak classifiers are not accurately classifying. It trains multiple classifiers on subsets of the data, and then combines them into a final model by weighting their individual predictions. The final model is optimized to minimize the overall error of the combined classifiers.
 
 Adaboost has several advantages, including being easy to implement, handling large datasets well, and being able to handle a wide range of input features. However, it can be sensitive to noisy data and outliers, and it can be computationally expensive when dealing with large datasets or complex models. Overall, Adaboost can be a useful tool for H1B prediction analysis, particularly when combined with other classifiers in an ensemble learning approach.
+
+
 **Accuracy:** 68%
+
 ### XGBoost Classifier
 XGBoost (Extreme Gradient Boosting) is a type of decision tree ensemble model that has gained popularity in recent years due to its ability to handle large and complex datasets. XGBoost is an extension of the Gradient Boosting method and works by iteratively adding decision trees to the model while adjusting the weights of the samples to minimize the loss function.
 
@@ -97,6 +106,8 @@ XGBoost also has several hyperparameters that can be tuned to improve its perfor
 Overall, XGBoost is a powerful machine learning algorithm that can be used for H1B prediction analysis and has proven to be effective in several real-world scenarios.
 
 **Accuracy:** 69%
+
+
 ## Questions for EDA and Modeling.
 * Analysis will be done on which employer has the most applicants.
 * Which role has more acceptance or rejections?
