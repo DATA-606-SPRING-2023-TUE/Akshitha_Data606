@@ -37,12 +37,7 @@ array([[    42,  18064],
 array([[ 26376, 537496],
        [  5163, 558283]], dtype=int64)
 
-* After Upsampling:
-      
-               precision    recall  f1-score   support
-
-           0       0.84      0.05      0.09    563872
-           1       0.51      0.99      0.67    563446
+* Applied Upsampling:
 
 
 ## ML Methodologies
