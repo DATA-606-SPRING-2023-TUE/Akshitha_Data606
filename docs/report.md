@@ -24,20 +24,20 @@ so they withdrew the LCA. It cannot be used for filing H1B petition anymore.
 ## Removing Outliers
 Method Used:  Z-score
 
-Before applying : 0.9679485418826776
-After Applying: 0.9685945068204025
+* Before applying : 0.9679485418826776
+* After Applying: 0.9685945068204025
 
-There is increase of approximately 0.001% accuracy with Logistic Regression
-Data is highly imbalanced
+* There is increase of approximately 0.001% accuracy with Logistic Regression
+* Data is highly imbalanced
 
-Initial Confusion Matrix:
+* Initial Confusion Matrix:
 array([[    42,  18064],
        [     0, 557080]], dtype=int64)
-Later Confusion Matrix:
+* Later Confusion Matrix:
 array([[ 26376, 537496],
        [  5163, 558283]], dtype=int64)
 
-After Upsampling:
+* After Upsampling:
       
                precision    recall  f1-score   support
 
