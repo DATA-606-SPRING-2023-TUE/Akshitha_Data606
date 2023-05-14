@@ -107,18 +107,15 @@ Overall, XGBoost is a powerful machine learning algorithm that can be used for H
 
 **Accuracy:** 69%
 
+## Summary:
 
-## Questions for EDA and Modeling.
-* Analysis will be done on which employer has the most applicants.
-* Which role has more acceptance or rejections?
-* Year wise observation of applications and employers.
-* Which of the given features play important role in the acceptance of the lottery system of H1-B?
-* How does the wage effect the Case status?
-* Which Employer state or city has most acceptance rate year wise?
+Random Forest and Decision Tree models are effective machine learning algorithms used for predictive analysis. In the H1B prediction analysis, both these models performed well with 81% accuracy, indicating their usefulness in this context.
 
-## What do you want to achieve in this project?
-I would like to complete this project by implementing my skills learnt from the courses I have taken in this Data Science course. I will try to implement and explain different models and find the accuracy to determine the best model.
-Using the real time data to predict the real time values based on the learnt techniques is doing to be interesting.
+Decision Trees are simple and easy to understand algorithms that are used for both classification and regression tasks. In the context of H1B prediction analysis, decision trees helped in predicting the likelihood of an applicant being approved or denied an H1B visa. By identifying the most important features that affect the outcome of the prediction, decision trees helped in creating a model that could accurately classify new data.
+
+Random Forest is an ensemble learning algorithm that uses multiple decision trees to improve the accuracy of predictions. In the context of H1B prediction analysis, Random Forest was able to improve the performance of the Decision Tree algorithm by reducing the variance and overfitting issues. This allowed for a more accurate prediction of whether an applicant is likely to be approved or denied an H1B visa.
+
+Overall, the use of Random Forest and Decision Tree models in H1B prediction analysis has proven to be effective in accurately predicting visa approvals and denials with 81% accuracy.
 ## Presentation Link
 
 https://github.com/akukudala/Akshitha_Data606/blob/main/docs/capstone.pptx
